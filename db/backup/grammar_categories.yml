@@ -1,0 +1,57 @@
+--- 
+- name: VERBOS
+  updated_at: 2009-04-27 20:31:39 Z
+  id: 1
+  created_at: 2009-04-27 20:31:39 Z
+- name: SUSTANTIVOS
+  updated_at: 2009-04-27 20:31:40 Z
+  id: 2
+  created_at: 2009-04-27 20:31:40 Z
+- name: "ADJETIVOS "
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 3
+  created_at: 2009-04-27 20:31:41 Z
+- name: "ADVERBIOS "
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 4
+  created_at: 2009-04-27 20:31:41 Z
+- name: SALUDOS
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 5
+  created_at: 2009-04-27 20:31:41 Z
+- name: PALABRAS INTERROGATIVAS
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 6
+  created_at: 2009-04-27 20:31:41 Z
+- name: PRONOMBRES PERSONALES
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 7
+  created_at: 2009-04-27 20:31:41 Z
+- name: PRONOMBRES POSESIVOS
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 8
+  created_at: 2009-04-27 20:31:41 Z
+- name: PRONOMBRES DEMOSTRATIVOS
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 9
+  created_at: 2009-04-27 20:31:41 Z
+- name: PREPOSICIONES Y CONJUNCIONES
+  updated_at: 2009-04-27 20:31:41 Z
+  id: 10
+  created_at: 2009-04-27 20:31:41 Z
+- name: "N\xC3\x9AMEROS"
+  updated_at: 2009-04-27 20:31:42 Z
+  id: 11
+  created_at: 2009-04-27 20:31:42 Z
+- name: CONJUGACIONES ESENCIALES
+  updated_at: 2009-04-27 20:31:42 Z
+  id: 12
+  created_at: 2009-04-27 20:31:42 Z
+- name: FRASES HECHAS
+  updated_at: 2009-04-27 20:31:42 Z
+  id: 13
+  created_at: 2009-04-27 20:31:42 Z
+- name: "GRAM\xC3\x81TICA ELEMENTAL"
+  updated_at: 2009-04-27 20:31:42 Z
+  id: 14
+  created_at: 2009-04-27 20:31:42 Z
