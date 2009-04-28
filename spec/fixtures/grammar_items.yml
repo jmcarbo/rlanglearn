@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  source_description: MyString
+  target_description: MyString
+  target_phonetics: MyString
+  target_language_id: 1
+  source_language_id: 1
+  odd_association: MyText
+  grammar_catagory_id: 1
+  parent_id: 1
+
+two:
+  source_description: MyString
+  target_description: MyString
+  target_phonetics: MyString
+  target_language_id: 1
+  source_language_id: 1
+  odd_association: MyText
+  grammar_catagory_id: 1
+  parent_id: 1

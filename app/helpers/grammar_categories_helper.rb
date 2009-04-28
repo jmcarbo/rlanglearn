@@ -1,0 +1,2 @@
+module GrammarCategoriesHelper
+end

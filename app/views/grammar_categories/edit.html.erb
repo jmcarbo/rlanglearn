@@ -1,0 +1,16 @@
+<h1>Editing grammar_category</h1>
+
+<% form_for(@grammar_category) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @grammar_category %> |
+<%= link_to 'Back', grammar_categories_path %>

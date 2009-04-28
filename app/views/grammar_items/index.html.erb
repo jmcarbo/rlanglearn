@@ -1,0 +1,38 @@
+<h1>Listing grammar_items</h1>
+
+<table>
+  <tr>
+    <th>Source description</th>
+    <th>Target description</th>
+    <th>Target phonetics</th>
+    <th>Target language</th>
+    <th>Source language</th>
+    <th>Odd association</th>
+    <th>Grammar category</th>
+    <th>Parent</th>
+	<th>Importance</th>
+  </tr>
+
+<% @grammar_items.each do |grammar_item| %>
+  <tr>
+    <td><%=h grammar_item.source_description %></td>
+    <td><%=h grammar_item.target_description %></td>
+    <td><%=h grammar_item.target_phonetics %></td>
+    <td><%=h grammar_item.target_language.iso_2_name if grammar_item.target_language %></td>
+    <td><%=h grammar_item.source_language.iso_2_name if grammar_item.source_language %></td>
+    <td><%=h grammar_item.odd_association %></td>
+    <td><%=h grammar_item.grammar_category.name if grammar_item.grammar_category%></td>
+    <td><%=h grammar_item.parent_id %></td>
+    <td><%=h grammar_item.importance %></td>
+    <td><%= link_to 'Show', grammar_item %></td>
+    <td><%= link_to 'Edit', edit_grammar_item_path(grammar_item) %></td>
+    <td><%= link_to 'Destroy', grammar_item, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to 'Translate', translate_grammar_item_path(grammar_item) %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New grammar_item', new_grammar_item_path %>

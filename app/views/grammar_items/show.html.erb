@@ -1,0 +1,43 @@
+<p>
+  <b>Source description:</b>
+  <%=h @grammar_item.source_description %>
+</p>
+
+<p>
+  <b>Target description:</b>
+  <%=h @grammar_item.target_description %>
+</p>
+
+<p>
+  <b>Target phonetics:</b>
+  <%=h @grammar_item.target_phonetics %>
+</p>
+
+<p>
+  <b>Target language:</b>
+  <%=h @grammar_item.target_language_id %>
+</p>
+
+<p>
+  <b>Source language:</b>
+  <%=h @grammar_item.source_language_id %>
+</p>
+
+<p>
+  <b>Odd association:</b>
+  <%=h @grammar_item.odd_association %>
+</p>
+
+<p>
+  <b>Grammar catagory:</b>
+  <%=h @grammar_item.grammar_category_id %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%=h @grammar_item.parent_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_grammar_item_path(@grammar_item) %> |
+<%= link_to 'Back', grammar_items_path %>
